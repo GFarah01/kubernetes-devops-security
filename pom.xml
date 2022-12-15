@@ -45,7 +45,6 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugins>
     <plugin>    
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
@@ -53,9 +52,8 @@
             <target>1.8</target>
         </configuration>
     </plugin>
-</plugins>
 			
-		</plugins>
+</plugins>		
 	</build>
 
 </project>
